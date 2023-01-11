@@ -6,5 +6,9 @@
     if(!intervals.length) {
         return 0;
     }
+    let size  = intervals.length;
+    
+    intervals.sort((a,b) => a[1]-b[1]);
+    
     
 };
